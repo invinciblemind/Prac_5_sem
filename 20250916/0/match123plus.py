@@ -8,5 +8,5 @@ match a:
         print("три")
     case n if n % 2 == 0:
         print("четное")
-    case q if 1:
+    case q:
         print(q, "-- это много")
