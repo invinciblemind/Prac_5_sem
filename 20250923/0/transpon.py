@@ -1,7 +1,7 @@
 matrix = []
 s = input()
 while s != '':
-    matrix.append(eval(s))
+    matrix.append(list(eval(s)))
     s = input()
 for i in range(len(matrix)):
     for j in range(i + 1, len(matrix)):
