@@ -22,4 +22,4 @@ for word in dct.keys():
         max_words = [word]
     elif dct[word] == max_count:
         max_words.append(word)
-print(*max_words)
+print(*sorted(max_words))
