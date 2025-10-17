@@ -1,0 +1,7 @@
+:fzero 1+2
+:fone a a**2+1
+:ftwo x y x/y
+fzero
+fone 10
+ftwo 7 8
+quit '{}___{}'
