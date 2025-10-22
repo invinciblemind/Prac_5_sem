@@ -1,0 +1,1 @@
+print(*list(slide(list(enumerate([1, '2', '333', 'a', [], ['b', 'c']])), 3)))
