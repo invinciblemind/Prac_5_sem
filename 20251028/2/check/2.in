@@ -1,0 +1,8 @@
+norm_tri = Triangle((0, 0), (3, 0), (0, 4))
+empty_tri = Triangle((0, 0), (1, 0), (2, 0))
+big_tri = Triangle((-1, -1), (-1, 6), (5, -1))
+print(bool(norm_tri), bool(empty_tri), bool(big_tri))
+print(round(abs(norm_tri), 3), round(abs(empty_tri), 3), round(abs(big_tri), 3))
+print(empty_tri < norm_tri, norm_tri < big_tri)
+print(empty_tri in norm_tri, norm_tri in big_tri, big_tri in empty_tri)
+print(empty_tri & norm_tri, norm_tri & big_tri, big_tri & empty_tri)

@@ -1,0 +1,7 @@
+tri = Triangle((0, 2), (1, 0), (2, 2))
+other_tri = Triangle((0, 1), (1, 3), (2, 1))
+print(bool(tri), bool(other_tri))
+print(round(abs(tri), 3), round(abs(other_tri), 3))
+print(tri < other_tri, other_tri < tri)
+print(tri in other_tri, other_tri in tri)
+print(tri & other_tri, other_tri & tri)
