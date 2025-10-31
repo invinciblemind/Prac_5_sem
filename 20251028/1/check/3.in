@@ -1,0 +1,10 @@
+a, b, c, d = Omnibus(), Omnibus(), Omnibus(), Omnibus()
+a.q = a.w = a.e = (1, 1, 1, 0, 0, 0)
+b.r = b.t = b.y = (0, 0, 0, 1, 1, 1)
+c.q = c.e = c.t = (1, 0, 1, 0, 1, 0)
+d.w = d.r = d.y = (0, 1, 0, 1, 0, 1)
+print(a.q, b.w, c.e, d.r, a.t, b.y)
+del a.q, d.w, c.e, b.r
+print(a.q, b.w, c.e, d.r, a.t, b.y)
+del c.e, d.r, b.t, d.y
+print(a.q, b.w, c.e, d.r, a.t, b.y)

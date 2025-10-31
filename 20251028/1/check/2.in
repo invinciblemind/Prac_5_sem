@@ -1,0 +1,14 @@
+a = Omnibus()
+a.i = a.j = a.k = True
+print(a.i, a.j, a.k)
+b = Omnibus()
+b.i = b.j = b.k = True
+print(a.i, a.j, a.k, b.i, b.j, b.k)
+del a.i
+del a.i
+del a.i
+print(a.i, a.j, a.k, b.i, b.j, b.k)
+del b.i
+del b.j
+del b.k
+print(a.i, a.j, a.k, b.i, b.j, b.k)
