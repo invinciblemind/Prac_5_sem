@@ -1,0 +1,4 @@
+a = DivStr("abcdefg")
+print(* DivStr(''.join(list(map(str, list(a // 2)))) + a % 2) // 2, DivStr(''.join(list(map(str, list(a // 2)))) + a % 2) % 2)
+print(* DivStr(''.join(list(map(str, list(a // 3)))) + a % 3) // 3, DivStr(''.join(list(map(str, list(a // 3)))) + a % 3) % 3)
+print(* DivStr(''.join(list(map(str, list(a // 4)))) + a % 4) // 4, DivStr(''.join(list(map(str, list(a // 4)))) + a % 4) % 4)
