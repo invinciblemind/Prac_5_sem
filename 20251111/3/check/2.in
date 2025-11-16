@@ -1,0 +1,12 @@
+wo = Vowel(y=22, a=12, i=3)
+try:
+    wo.answer = 123
+except AttributeError:
+    print('read-only')
+print(wo.full)
+wo.full = True
+print(wo.full)
+wo.e = wo.o = wo.u = 100500
+print(wo.full)
+wo.full = True
+print(wo.full)

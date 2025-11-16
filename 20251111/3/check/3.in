@@ -1,0 +1,13 @@
+wo = Vowel(y=22, a=12, i=3)
+try:
+    print(wo.e)
+except AttributeError:
+    print('no e')
+try:
+    print(wo.q)
+except AttributeError:
+    print('no q')
+try:
+    wo.q = 111
+except AttributeError:
+    print('no q')
