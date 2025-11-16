@@ -1,0 +1,19 @@
+class C:
+    num = Num()
+    
+    def __init__(self, val):
+        self.val = val
+    
+    def __str__(self):
+        return f'<{self.val}>'
+
+
+a = C(123)
+print(a, a.num)
+a.num = 123
+print(a, a.num)
+a = 123
+print(a)
+b = C([1, 2, 3])
+b.num = [1, 2, 3]
+print(b, b.num)

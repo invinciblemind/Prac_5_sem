@@ -1,0 +1,15 @@
+class C:
+    num = Num()
+    
+    def __init__(self, val):
+        print(val)
+
+
+c, d = C('c'), C('d')
+print(c.num, d.num)
+c.num = 1
+d.num = 2
+print(c.num + d.num)
+a = C(1)
+a.num = [1, 2, 3]
+print(a.num)
