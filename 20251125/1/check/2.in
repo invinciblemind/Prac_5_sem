@@ -1,0 +1,5 @@
+class C(metaclass=dump):
+    a = 1
+
+c = C()
+print(c, c.a, C.a)

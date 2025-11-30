@@ -1,0 +1,16 @@
+class C(metaclass=dump):
+    def __init__(self, a1=1, a2='22', a3=False):
+        self.lst = [a1, a2, a3]
+    
+    def __str__(self):
+        return f'<<{self.lst}>>'
+    
+    def rept(self, n=3):
+        for i in range(n):
+            print(self)
+
+c = C()
+print(c)
+c.rept()
+d = C(11, 'aaa')
+d.rept(5)
