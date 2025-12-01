@@ -1,0 +1,3 @@
+store 100 a
+ifge a b loop
+out a

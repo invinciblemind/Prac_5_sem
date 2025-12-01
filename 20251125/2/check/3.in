@@ -1,0 +1,11 @@
+store 1 a
+store 10 b
+store 15 c
+loop:
+add e a e
+out e
+iflt e b nonstp
+stop
+nonstp:
+iflt e c loop
+out c
