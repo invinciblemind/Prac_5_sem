@@ -2,4 +2,4 @@ class C(metaclass=dump):
     a = 1
 
 c = C()
-print(c, c.a, C.a)
+print(c.a, C.a)
